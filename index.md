@@ -9,3 +9,9 @@ Spock ist eine fiktive Figur aus dem "Star Trek"-Medien-Franchise. Zusammen mit 
 * ist in seinen Handlungen stark von der Logik bestimmt
 * besitzt sowohl eine großes Allgemeinwissen als auch ein umfangreiches Fachwissen
 * ist eine aufrichtige und verlässliche Person
+
+### Spock sagt:
+
+> Live long and prosper. 
+
+> The needs of the many outweigh the needs of the few.
