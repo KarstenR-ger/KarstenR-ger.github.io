@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+     
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <title>SVG-Spielwiese</title>
+
+        <!-- Eigenes CSS -->  
+        <link href="css/style.css" rel="stylesheet">
+      
+      
+    </head>
+
+    <body>
+  
+            
+        <svg viewbox="0 0 95 45">
+            <defs>
+                <path id="elbow" d="M0,45 l0, -7.5 a37.5,37.5 0 0 1 37.5,-37.5 l 57.5,0 0,15 -1.25,0 a18.75,18.75 0 0 0 -18.75, 18.75 l0,11.25 z" />
+                <rect id="box1" width="75" height="45"/>
+            </defs>
+        </svg>
+        
+        
+        <div id="lcars-header">
+            <svg viewbox="0 0 95 45" class="lcars-svg">
+                <use xlink:href="#elbow" class="lcars-elbow"/>
+            </svg>
+        </div>
+    
+        <div id="lcars-nav">
+            <p>ABC</p>
+        </div>
+        
+        <div id="lcars-footer">
+             <p>Hier ist unten</p>
+        </div>
+
+        
+        <div id="lcars-container">
+
+            <h1>Grafiken mit SVG</h1>
+
+            <div id="container">
+                <div id="block_1">
+                    <p>Inhalt</p>
+                </div>
+
+                <div id="block_2">
+                    <p>Zeile 2</p>
+                </div>
+
+                <div id="block_3">
+                    <p>Zeile 3</p>
+                </div>
+
+            </div>    
+
+
+            <svg width="180" height="200" viewbox="0 0 95 100" class="lcars-svg" >
+                <use xlink:href="#elbow" fill="blue" />
+                <use xlink:href="#box1" x="0" y="50"/>
+
+            </svg>
+
+            <p>Bemerkung</p>
+            <p>Bemerkung</p>        
+            <p>Bemerkung</p>        
+            <p>Bemerkung</p>
+            <p>Bemerkung</p>
+            <p>Bemerkung</p>        
+            <p>Bemerkung</p>        
+            <p>Bemerkung</p>
+        </div>    
+    </body> 
+</html>     
