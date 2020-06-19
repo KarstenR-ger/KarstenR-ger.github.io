@@ -15,3 +15,5 @@ Spock ist eine fiktive Figur aus dem "Star Trek"-Medien-Franchise. Zusammen mit 
 > Live long and prosper. 
 
 > The needs of the many outweigh the needs of the few.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Leonard_Nimoy_Spock_1967.jpg"/>
